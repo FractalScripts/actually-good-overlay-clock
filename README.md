@@ -52,7 +52,7 @@ Previous apps I've used were all either not adaptable enough, too buggy, or just
 This aims to fill that void, with fully configurable appearances and running on under 300\* lines of code.
 I've worked on this for **2 entire days**\*\*, and I had just begun to lose my sanity after I finished it.
 ###### \*The main Python file (pre-compiled) has just under 300 lines of code, as of v1.0.
-###### \*\*Work time for v1.0 was about 2 days, excluding nighttime. (About 24h or so)
+###### \*\*Work time for v1.0 was about 2 days, including nighttime. (About 24h or so)
 
 ---
 ## How to install (or more accurately, not install.)
