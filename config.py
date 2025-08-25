@@ -25,10 +25,10 @@ Text format
 The text that is displayed
 
 Format codes are based on the Qt framework
-https://doc.qt.io/qt-6/qtime.htmlQTime:~:text=Member%20Function%20Documentation
+Refer to timeFormat.txt
 
 Notes:
-| Use single quotes to display literal characters (e.g. h outputs the hour, '\h' outputs h)
+| Use single quotes to display literal characters (e.g. h outputs the hour, 'h' outputs h)
 | Use backslash n (\n) for a new line (e.g. "line1\nline2" outputs:)
 | line2
 | line1
