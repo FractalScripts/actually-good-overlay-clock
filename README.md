@@ -4,16 +4,16 @@
 ### A lightweight clock that displays over your screen with much thought put into it.
 ---
 ## What is this?
-This is a simple program made in pure python that displays the time (and other things) as a small window on top of your desktop screen.
+This is a simple program made in pure python that displays the time (and other things) as a small window on top of your desktop screen
+It even hides itself when you hover over it, so you never comprimise on screen real estate!
 This program is <ins>portable</ins>, meaning you can move the folder anywhere on your computer and it will still work.
+This is a <ins>Windows-only</ins> program.
 
 ### Configuration
 The configuration is a python file. You can open it from the tray icon menu.
 Almost all appearances are customizable.
 **Visual Studio Code is highly recommended for modifying the config file as it increases visibility.**
-###### A notepad fallback is used if it cannot find VSCode.
-
-
+###### A notepad.exe fallback is used if it cannot find VSCode.
 
 ---
 ## Features:
@@ -42,3 +42,10 @@ A quick explanation:
   This window is <ins>overlayed</ins> onto your screen, causing it to be above all other windows.
   It detects if your mouse is within the window/taskbar, and if so, it dims to the appropriate amount.
 Now obviously its more complicated than that but thats the general idea behind it.
+
+---
+### Why did I make this?
+I decided to create this application to fill a void in the available apps today: A well thought out overlay clock that doesnt hog your screen space, your CPU, or your sanity.
+Previous apps I've used were all either not adaptable enough, too buggy, or just kinda ugly.
+This aims to fill that void, with fully configurable appearances and running on only 300* lines of code.
+###### *the main python file (pre-compiled) has around 300 lines of code, as of v1.0
