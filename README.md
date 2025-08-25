@@ -22,14 +22,14 @@ Almost all appearances are customizable.
   - (Refer to [timeFormat.txt](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/timeFormat.txt))
 - Text alignment
 - Coordinate positioning system based on any corner, any side's center, or a screen percentage.
-- Text and Background color
+- Text and Background colour
 - Font, Size, Weight, Padding, and Rounded corners
-- Shadow, Shadow color, Shadow blur radius, and Shadow offset
+- Shadow, Shadow colour, Shadow blur radius, and Shadow offset
 - Window opacity, Window opacity on hover, Window margin (To account for the shadow)
 - Time update speed
 - Hide when the taskbar is visible (For auto-hiding taskbars) (Supports opacity)
 - Delay before unhiding
-- Clickthrough
+- Click-through
 - Always on top
 - Tray icon (Show | Hide | Config file | Exit) (Double-click to toggle visibility)
 - Custom tray icon
@@ -76,7 +76,7 @@ I've worked on this for **2 entire days**\*\*, and I had just begun to lose my s
 - If you want it to work well with inversion, make it mostly black.
 - Simply replace the current icon path in the configuration file with the path of your custom icon.
   - Do not use a direct path (e.g. `C:/Users/user/Desktop... etc.`) as that will break the app.
-- If your icon has a lot of color, disable inversion.
+- If your icon has a lot of colour, disable inversion.
 
 ---
 ### How to make AGOC run on startup
