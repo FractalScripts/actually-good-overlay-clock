@@ -19,7 +19,7 @@ Almost all appearances are customizable.
 ---
 ## Features:
 - Changing the format of the time/date displayed
-  - (Refer to these [time and date formats](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/README.md#time-and-date-format).[test](#time-and-date-format))
+  - (Refer to these [time and date formats](#time-and-date-format).)
 - Text alignment
 - Coordinate positioning system based on any corner, any side's center, or a screen percentage.
 - Text and Background colour
