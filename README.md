@@ -4,7 +4,7 @@
 
 ---
 ### A lightweight clock that displays over your screen with much thought put into it.
-[showcase](./gallery/showcase_small.gif)
+![showcase](./gallery/showcase_small.gif)
 
 ---
 ## What is this?
