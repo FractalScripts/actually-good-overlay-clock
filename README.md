@@ -7,9 +7,33 @@
 This is a simple program made in pure python that displays the time (and other things) as a small window on top of your desktop screen.
 This program is <ins>portable</ins>, meaning you can move the folder anywhere on your computer and it will still work.
 
+### Configuration
+The configuration is a python file. You can open it from the tray icon menu.
+Almost all appearances are customizable.
+**Visual Studio Code is highly recommended for modifying the config file as it increases visibility.**
+###### A notepad fallback is used if it cannot find VSCode.
+
+
+
 ---
 ## Features:
-placeholder
+- Changing the format of the time/date displayed
+ - (Refer to [this table](https://doc.qt.io/qt-6/qtime.html#:~:text=Member%20Function%20Documentation))
+ - Text alignment
+ - Coordinate positioning system based on any corner, any side's center, or a screen percentage.
+ - Text and Background color
+ - Font, Size, Weight, Padding, and Rounded corners
+ - Shadow, Shadow color, Shadow blur radius, and Shadow offset
+ - Window opacity, Window opacity on hover, Window margin (To account for the shadow)
+ - Time update speed
+ - Hide when the taskbar is visible (For auto-hiding taskbars) (Supports opacity)
+ - Delay before unhiding
+ - Clickthrough
+ - Always on top
+ - Tray icon (Show | Hide | Config file | Exit) (Double click to toggle visibility)
+ - Custom tray icon
+ - Icon inversion (For dark mode)
+ - Custom editor path (When opening config file from menu)
 
 ---
 ## How it functions
