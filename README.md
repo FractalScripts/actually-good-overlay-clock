@@ -79,6 +79,17 @@ I've worked on this for **2 entire days**\*\*, and I had just begun to loose my 
 - If your icon has a lot of color, disable inversion.
 
 ---
+### How to make AGOC run on startup
+- Create a shortcut to `AGOC.exe`
+  - This can be done by right clicking the file (And selecting Show more options if you are on Windows 11) and clicking Create shortcut
+- Hit Windows + R and type `shell:startup`, hit enter.
+- Move the shortcut to that folder
+  - Note that once you create a shortcut, if you move the `.exe` file, you would need to update the shortcut.
+- Now, go to Task Manager and go to Startup apps in the sidebar
+- You should be able to find `AGOC.exe` in the list.
+  - Now AGOC should automatically run on startup!
+
+---
 ---
 ---
 **This is open-source software.**
