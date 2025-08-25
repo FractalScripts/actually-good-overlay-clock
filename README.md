@@ -14,7 +14,8 @@ Useful for people who have auto-hiding taskbars (Very common on laptops) but you
 
 Includes smart handling of the mouse so you can still interact with elements under the clock, so you never give up valuable screen real estate!
 
-![small showcase](./gallery/showcase.gif)  ![clickthrough showcase](./gallery/showcase_clickthrough.gif)  ![autohide showcase](./gallery/showcase_autohide.gif)
+![small showcase](./gallery/showcase.gif)
+![clickthrough showcase](./gallery/showcase_clickthrough.gif)  ![autohide showcase](./gallery/showcase_autohide.gif)
 
 ### Customization
 The customization file is accessible though the tray menu.
