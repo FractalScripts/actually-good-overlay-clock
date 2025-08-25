@@ -1,51 +1,39 @@
 # Actually Good Overlay Clock
 ## (A.G.O.C.)
-
 [Advanced ReadMe](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/README_ADVANCED.md)
+
 ---
 ### A lightweight clock that displays over your screen with much thought put into it.
 ---
 ## What is this?
-This is a simple program made in pure Python that displays the time (and other things) as a small window on top of your desktop screen.
-It even hides itself when you hover over it, so you never compromise on screen real estate!
-It has a tray icon that has options to show or hide the clock, a link to the configuration file, and you can also double-click it to toggle the visibility of the clock.
-This program is <ins>portable</ins>, meaning you can move the folder anywhere on your computer and it will still work.
-This is a <ins>Windows-only</ins> program.
+AGOC is an <ins>extremely customizable</ins> desktop clock that displays over your other windows
 
-### Configuration
-The configuration is a Python file. You can open it from the tray icon menu.
-Almost all appearances are customizable.
-**Visual Studio Code is highly recommended for modifying the config file as it increases visibility.**
-###### A notepad.exe fallback is used if it cannot find VSCode.
+Useful for people who have auto-hiding taskbars (Very common on laptops) but you still want to see the time!
+
+Includes smart handling of the mouse so you can still interact with elements under the clock, so you never give up valuable screen real estate!
+
+### Customization
+The customization file is accessible though the tray menu.
+
+You can customize its appearance down to the shadows and corner radius, change the layout of the text, and even change its behaviour, letting it also hide when your mouse is at the bottom of your screen. (Useful for auto-hiding taskbars, as the taskbar doesnt always stay on top of the clock.)
+
+**Visual Studio Code is highly recommended for modifying the config file as it increases visibility, but it is not required.**
 
 ---
 ## Features:
-- Changing the format of the time/date displayed
-  - (Refer to these [time and date formats](#time-and-date-format).)
-- Text alignment
-- Coordinate positioning system based on any corner, any side's center, or a screen percentage.
-- Text and Background colour
-- Font, Size, Weight, Padding, and Rounded corners
-- Shadow, Shadow colour, Shadow blur radius, and Shadow offset
-- Window opacity, Window opacity on hover, Window margin (To account for the shadow)
-- Time update speed
-- Hide when the taskbar is visible (For auto-hiding taskbars) (Supports opacity)
-- Delay before unhiding
-- Click-through
-- Always on top
-- Tray icon (Show | Hide | Config file | Exit) (Double-click to toggle visibility)
-- Custom tray icon
-- Custom tray tooltip
-- Icon inversion (For dark mode)
-- Custom editor path (When opening config file from menu)
-
----
-## How it functions
-A quick explanation:
-  It essentially takes your configuration from the config.py file and applies it to a window that displays the time.
-  This window is <ins>overlaid</ins> onto your screen, causing it to be above all other windows.
-  It detects if your mouse is within the window/taskbar, and if so, it dims to the appropriate amount.
-Now obviously it's more complicated than that, but that's the general idea behind it.
+- Changing the text layout for a truely unique look
+  - (Refer to these [time and date formats](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/README_ADVANCED.md#time-and-date-format).)
+- Text fonts, size, and even style
+- Change the color of anything that has color
+- Custom position on the screen
+  - Supports centered positions
+- Transparency and mouse detection
+- Customize the look of the window down to the shadow
+- Always on top and Click-through
+- Visibility toggle
+- Custom tray icon and tooltip
+- Icon inversion, for all the dark mode users!
+- Many different pre-loaded icons for you to choose from!
 
 ---
 ### Why did I make this?
@@ -71,33 +59,11 @@ I've worked on this for **2 entire days**\*\*, and I had just begun to lose my s
 - Refer to `timeFormat.txt` for the time syntax.
 
 ---
-### Custom Icons
-#### If you do not have experience with creating custom icons, be cautious.
-- Use `.ico` format.
-- Put the file inside the `_ico` folder.
-- If you want it to work well with inversion, make it mostly black.
-- Simply replace the current icon path in the configuration file with the path of your custom icon.
-  - Do not use a direct path (e.g. `C:/Users/user/Desktop... etc.`) as that will break the app.
-- If your icon has a lot of colour, disable inversion.
+### [Custom Icons](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/README_ADVANCED.md#custom-icons)
 
----
-### How to make AGOC run on startup
-- Create a shortcut to `AGOC.exe`
-  - This can be done by right-clicking the file (and selecting Show more options if you are on Windows 11) and clicking Create shortcut.
-- Hit Windows + R and type `shell:startup`, hit enter.
-- Move the shortcut to that folder.
-  - Note that once you create a shortcut, if you move the `.exe` file, you would need to update the shortcut.
-- Now, go to Task Manager and go to Startup apps in the sidebar.
-- You should be able to find `AGOC.exe` in the list.
-  - Now AGOC should automatically run on startup!
+### [How to make AGOC run on startup](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/README_ADVANCED.md#how-to-make-agoc-run-on-startup)
 
----
-### Time and Date format
-(These are also listed in [timeFormat.txt](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/timeFormat.txt).)
-
-[Time syntax table](https://doc.qt.io/qt-6/qtime.html#:~:text=Member%20Function%20Documentation)
-
-[Date syntax table](https://doc.qt.io/qt-6/qdate.html#:~:text=Member%20Function%20Documentation)
+### [Time and Date format](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/README_ADVANCED.md#time-and-date-format)
 
 ---
 ---
