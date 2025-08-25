@@ -6,8 +6,7 @@
 ## What is this?
 This is a simple program made in pure Python that displays the time (and other things) as a small window on top of your desktop screen.
 It even hides itself when you hover over it, so you never compromise on screen real estate!
-It has a tray icon that has options to show or hide the clock, as well as a link to the configuration file.
-You can double-click the tray icon to toggle the visibility of the clock!
+It has a tray icon that has options to show or hide the clock, a link to the configuration file, and you can also double-click it to toggle the visibility of the clock.
 This program is <ins>portable</ins>, meaning you can move the folder anywhere on your computer and it will still work.
 This is a <ins>Windows-only</ins> program.
 
@@ -42,13 +41,13 @@ Almost all appearances are customizable.
 ## How it functions
 A quick explanation:
   It essentially takes your configuration from the config.py file and applies it to a window that displays the time.
-  This window is <ins>overlayed</ins> onto your screen, causing it to be above all other windows.
+  This window is <ins>overlaid</ins> onto your screen, causing it to be above all other windows.
   It detects if your mouse is within the window/taskbar, and if so, it dims to the appropriate amount.
-Now obviously it's more complicated than that but that's the general idea behind it.
+Now obviously it's more complicated than that, but that's the general idea behind it.
 
 ---
 ### Why did I make this?
-I decided to create this application to fill a void in the available apps today: A well thought out overlay clock that doesnt hog your screen space, your CPU, or your sanity.
+I decided to create this application to fill a void in the available apps today: A well thought out overlay clock that doesn't hog your screen space, your CPU, or your sanity.
 Previous apps I've used were all either not adaptable enough, too buggy, or just kinda ugly.
 This aims to fill that void, with fully configurable appearances and running on under 300\* lines of code.
 I've worked on this for **2 entire days**\*\*, and I had just begun to lose my sanity after I finished it.
@@ -63,7 +62,7 @@ I've worked on this for **2 entire days**\*\*, and I had just begun to lose my s
 - Download `AGOC.zip`
 - Extract the zip to wherever you want
 - Run `AGOC.exe`
-  - Windows SmartScreen might pop up warning you of the program. This is because AGOC is <ins>unsigned software.</ins> This is completely normal and as long as you are downloading the app from the [official GitHub repository](https://github.com/FractalScripts/actually-good-overlay-clock), it is completely safe.
+  - Windows SmartScreen might pop up warning you of the program. This is because AGOC is <ins>unsigned software</ins>. This is completely normal and as long as you are downloading the app from the [official GitHub repository](https://github.com/FractalScripts/actually-good-overlay-clock), it is completely safe.
   - To bypass Windows SmartScreen, click <ins>More info</ins> and <ins>Run anyway</ins>.
 - There will be a tray icon that could be hidden. You can exit the app there.
 - The configuration file (`config.py`) is located in the same folder as the executable.
@@ -82,11 +81,11 @@ I've worked on this for **2 entire days**\*\*, and I had just begun to lose my s
 ---
 ### How to make AGOC run on startup
 - Create a shortcut to `AGOC.exe`
-  - This can be done by right clicking the file (And selecting Show more options if you are on Windows 11) and clicking Create shortcut
+  - This can be done by right-clicking the file (and selecting Show more options if you are on Windows 11) and clicking Create shortcut.
 - Hit Windows + R and type `shell:startup`, hit enter.
-- Move the shortcut to that folder
+- Move the shortcut to that folder.
   - Note that once you create a shortcut, if you move the `.exe` file, you would need to update the shortcut.
-- Now, go to Task Manager and go to Startup apps in the sidebar
+- Now, go to Task Manager and go to Startup apps in the sidebar.
 - You should be able to find `AGOC.exe` in the list.
   - Now AGOC should automatically run on startup!
 
