@@ -19,7 +19,7 @@ Almost all appearances are customizable.
 ---
 ## Features:
 - Changing the format of the time/date displayed
-  - (Refer to [timeFormat.txt](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/timeFormat.txt))
+  - (Refer to these [time and date formats](https://github.com/FractalScripts/actually-good-overlay-clock/edit/main/README.md#time-and-date-format).)
 - Text alignment
 - Coordinate positioning system based on any corner, any side's center, or a screen percentage.
 - Text and Background colour
@@ -88,6 +88,14 @@ I've worked on this for **2 entire days**\*\*, and I had just begun to lose my s
 - Now, go to Task Manager and go to Startup apps in the sidebar.
 - You should be able to find `AGOC.exe` in the list.
   - Now AGOC should automatically run on startup!
+
+---
+### Time and Date format
+(These are also listed in [timeFormat.txt](https://github.com/FractalScripts/actually-good-overlay-clock/blob/main/timeFormat.txt).)
+
+[Time syntax table](https://doc.qt.io/qt-6/qtime.html#:~:text=Member%20Function%20Documentation)
+
+[Date syntax table](https://doc.qt.io/qt-6/qdate.html#:~:text=Member%20Function%20Documentation)
 
 ---
 ---
