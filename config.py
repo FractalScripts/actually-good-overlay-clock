@@ -35,7 +35,7 @@ Notes:
 | Use double backslashes (\\) to display a literal backslash (e.g. "\\n"" outputs "\n")
 """
 
-datetimeFormat = "h:mm:ss ap\nddd, MMM dd"
+datetimeFormat = "h:mm:ss ap\nddd, MMM d"
 
 
 """
