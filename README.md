@@ -4,6 +4,8 @@
 
 ---
 ### A lightweight clock that displays over your screen with much thought put into it.
+[showcase](./gallery/showcase_small.gif)
+
 ---
 ## What is this?
 AGOC is an <ins>extremely customizable</ins> desktop clock that displays over your other windows
