@@ -4,7 +4,7 @@
 
 ---
 ### A lightweight clock that displays over your screen with much thought put into it.
-![showcase](./gallery/showcase_small.gif)
+![showcase](./gallery/showcase.gif)
 
 ---
 ## What is this?
@@ -13,8 +13,6 @@ AGOC is an <ins>extremely customizable</ins> desktop clock that displays over yo
 Useful for people who have auto-hiding taskbars (Very common on laptops) but you still want to see the time!
 
 Includes smart handling of the mouse so you can still interact with elements under the clock, so you never give up valuable screen real estate!
-
-![small showcase](./gallery/showcase.gif)
 
 ![clickthrough showcase](./gallery/showcase_clickthrough.gif)  ![autohide showcase](./gallery/showcase_autohide.gif)
 
@@ -43,6 +41,8 @@ You can customize its appearance down to the shadows and corner radius, change t
 
 ---
 ### Why did I make this?
+![large showcase](./gallery/showcase_small.gif)
+
 I decided to create this application to fill a void in the available apps today: A well thought out overlay clock that doesn't hog your screen space, your CPU, or your sanity.
 Previous apps I've used were all either not adaptable enough, too buggy, or just kinda ugly.
 This aims to fill that void, with fully configurable appearances and running on under 300\* lines of code.
