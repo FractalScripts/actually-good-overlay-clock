@@ -1,5 +1,5 @@
 # Actually Good Overlay Clock
-## (AGOC)
+## (A.G.O.C.)
 ---
 ### A lightweight clock that displays over your screen with much thought put into it.
 ---
@@ -77,3 +77,23 @@ I've worked on this for **2 entire days**\*\*, and I had just begun to loose my 
 - Simply replace the current icon path in the configuration file with the path of your custom icon.
   - Do not use a direct path (e.g. `C:/Users/user/Desktop... etc.`) as that will break the app.
 - If your icon has a lot of color, disable inversion.
+
+---
+---
+---
+**This is open-source software.**
+
+You can view and edit the source code for your own private uses.
+
+You may modify it and redistribute it for free so long as you give credit and link back to [this page](https://github.com/FractalScripts/actually-good-overlay-clock).
+
+You may **not** redistribute this software as your own and/or sell it for currency.
+
+This software should remain free and open for all.
+
+You may use this software for content so long as you give credit and link back to [this page](https://github.com/FractalScripts/actually-good-overlay-clock).
+
+You may not use this software for any malicious intents or purposes.
+
+---
+###### © Copyright 2025, FractalScripts
